@@ -1,6 +1,7 @@
 body{
     margin: 0px;
     padding: 0px;
+    box-sizing: border-box;
 }
 
 .sidebar{
@@ -8,8 +9,9 @@ body{
     height: 650px;
     background-color:rgb(5,5,69) ;
     text-align: center;
-    padding-top:5px ;
+    padding-top:2px ;
     position: fixed;
+    z-index: 3;
     
 }
 .font-icon{
@@ -24,4 +26,133 @@ body{
 }
 #conticon{
     color: white;
+}
+nav{
+    float: left;
+    width: 100%;
+    height: 70px;
+    background-color: rgb(245,245,245);
+    padding-left: 100px;
+    position: fixed;
+    z-index: 1;
+}
+li,h1,ul{
+    display: inline-block;
+
+}
+ul{
+    padding-left: 68%;
+    font-size: 16px;
+    font-family: "Times New Roman";
+    font-weight: 600;  
+}
+li{
+    padding-left: 25px;
+
+}
+.navhead{
+    font-family: Montserrat, sans-serif;
+font-size:20px ;
+}
+
+.list{
+    float: left;
+    padding-left: 100px;
+    padding-top: 80px;
+position: fixed;
+}
+.list1h4{
+padding-left: 10px;
+padding-top: 3px;
+font-size: 14px;
+font-family: "Times New Roman";
+font-weight: 400;
+}
+.list1{
+    font-size: 14px;
+    font-family: "Times New Roman";
+
+}
+.list2{
+    font-size: 14px;
+padding-top: 1px;
+font-family: "Times New Roman";
+}
+#li1{
+    color: rgb(6,124,243);
+}
+.form{
+    clear: both;
+    float: left;
+    padding: 100px;
+    margin: 100px;
+}
+.verticalline{
+    width: 50%;
+    height: 1250px;
+    margin-left: 19%;
+    border:4px solid rgb(245,245,245);
+    overflow: hidden;
+}
+.form{
+   margin: 0px 0px 0px -60px;
+}
+.formh1{
+    font-size: 17px;
+    font-family: sans-serif;
+}
+label.f1 {
+    padding: 0px;
+    font-size: 18px;
+}
+input.f2{
+    width: 150%;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color:rgb(245,245,245) ;
+    border: none;
+    border-radius: 5px;
+
+}
+.formh2{
+    padding-top: 20px;
+    padding-left: -5px;
+}
+.name{
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    padding-right: 10px;
+}
+input.f4{
+    display: flex;
+    padding: 10px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 140%;
+    background-color:rgb(245,245,245) ;
+    border: none;
+    border-radius: 5px;
+
+}
+#ff {
+    padding-left: 60%;
+}
+#fff{
+margin-left:60% ;
+width: 150%;
+flex-grow: 5;
+
+}
+.form2{
+    
+        clear: both;
+        float: left;
+        margin-top:-210px;
+
+}
+#ff1{
+    width: 110%;
 }
