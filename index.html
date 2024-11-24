@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Edit Contect</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
@@ -34,13 +34,15 @@
  <nav>
     <div class="navbar">
         <div class="nav" style="display: flex;">
-        <h1 class="navhead">Edit <div> Contact</div></h1>
+        <h1 class="navhead">Edit Contact</h1>
        
         <ul>
             <li id="nav1">dembsky inc. </li>
             <li><i class="bx bxs-down-arrow"></i></li>
             <li>|</li>
             <li><i class='bx bxs-cog' ></i></li>
+            <li><i class="bx bxs-help-circle"></i></li>
+            <li><i class="bx bx-user" id="nav-space"></i></li>
         </ul>
     </div>
     </div>
@@ -63,11 +65,12 @@
 <h4 class="list1h4">Audit Log</h4>
     </div>
 </div>
-<div class="verticalline">
+<!-- <div class="verticalline"> -->
+    <form>
     <div class="form">
         <h1 class="formh1">Basic Information</h1><br>
     <div class="formh2">
-        <label class="f1" for="mail">Email</label>
+        <label class="f1" for="mail">Email <i class="bx bxs-circle"></i></label>
         <input class="f2" type="text" name="email" placeholder="contact@dembsky.me">
     <div class="name">
         <div class="namef">
@@ -82,10 +85,10 @@
 
     <div class="name">
         <div class="namef">
-        <label class="f3" for="status">Status</label>
+        <label class="f3" for="status">Status <i class="bx bxs-circle"></i></label>
         <input class="f4" type="text" name="status" placeholder="Designer"></div>
         <div class="namef">
-        <label  class="f3" id="ff" for="tracking">Tracking</label>
+        <label  class="f3" id="ff" for="tracking">Tracking <i class="bx bxs-circle"></i></label>
         <input class="f4" id="fff" type="text" name="tracking" placeholder="Hell No"></div>
     </div></div>
     </div>
@@ -96,7 +99,7 @@
         <h1 class="formh1">Address Information</h1><br>
     <div class="formh2">
         <label class="f1" for="address">Address</label>
-        <input class="f2" id="ff1" type="text" name="address">
+        <input class="f2" id="ff1" type="text" name="address" placeholder="Address">
         <label class="f1" for="addressline2">Address Line 2</label>
         <input class="f2" id="ff1" type="text" name="addressline2" placeholder="Address Line2(if needed)">
     <div class="name">
@@ -112,8 +115,8 @@
         <label class="f3" for="zip">Zip</label>
         <input class="f4" type="text" name="zip" placeholder="85-123"></div>
         <div class="namef">
-        <label  class="f3" id="ff" for="country">Country</label>
-        <input class="f4" id="fff" type="text" name="country" placeholder="country"></div>
+        <label  class="f3" id="ff" for="county">County</label>
+        <input class="f4" id="fff" type="text" name="county" placeholder="county"></div>
     </div>
     <label class="f1" for="country">Country</label>
     <input class="f2" id="ff1" type="text" name="country" placeholder="poland">
@@ -121,7 +124,65 @@
     </div>
     </div></div>
 
+<!-- </div> -->
+</form>
+
+<div class="last">
+
+        <div class="last1">
+        <input class="inp2"  placeholder="Group input">
+        <input class="inp2" id="l1" placeholder="Single input">
+    </div>
+    <hr id="hr">
+    <h2 class="lasth2">Add Group Inputs</h2>
+    <h2 class="lasth2" id="l2">Click and drag to add a new input anywhere on the layout,then delete or edit fields or coustomize </h2>
+<div class="search">
+    <input placeholder="Search">
+    <i class='bx bx-search-alt-2'></i>
+    
 </div>
+
+<div class="wholediv">
+<div class="div1">
+    <i class="bx bx-user"></i>
+    <div class="border">
+    <h2  class="div1h2">Basic Information</h2>
+    <p  class="div1p">Email, First Name, Last Name, Full Name, Status, Tracking</p>
+</div></div>
+
+<div class="div1">
+    <i class="bx bx-home"></i>
+    <div class="border">
+    <h2 class="div1h2">Address Information</h2>
+    <p class="div1p">Address ,City, State, Zip, County, Country</p>
+</div>
+</div>
+<div class="div1">
+    <i class="bx bxs-business" style="color:#f6a232"></i>
+    <div class="border1">
+        <h2 class="div1h2">Company Information</h2>
+        <p class="div1p">Name, Industry, Department, Title, Role, SIC, Code, Company Size, Annual, Revenue</p>
+    </div>
+</div>
+<div class="div1">
+    <i class="bx bxs-group" style="color:#f63b32"></i>
+    <div class="border1">
+        <h2 class="div1h2">Sales Representative</h2>
+        <p class="div1p">First Name, Last Name, Email, Phone, Photo</p>
+    </div>
+</div>
+<div class="div1">
+    <i class="bx bx-target-lock" style="color:#dcdada"></i>
+    <div class="border">
+        <h2 class="div1h2">System Information</h2>
+        <p class="div1p">Contact ID, External System ID, Source, Source, Usub Reason,Date Jined, Expire Date, Updated Date, Never put on hold</p>
+    </div>
+</div>
+</div>
+
+
+</div>
+
 
 
 
