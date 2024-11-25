@@ -16,7 +16,7 @@ body{
 }
 .font-icon{
     color: white;
-    font-family: Montserrat, sans-serif;
+    font-family: Sans-serif	;
 }
 .icons{
     color:rgb(105,105,105) ;
@@ -41,18 +41,18 @@ li,h1,ul{
 
 }
 ul{
-    padding-left: 60%;
+    padding-left: 59%;
     font-size: 16px;
-    font-family: "Times New Roman";
+    font-family: Sans-serif	;
     font-weight: 600;  
-    padding-top: 5px;
+    padding-top: 10px;
 }
 li{
     padding-left: 15px;
 
 }
 .navhead{
-    font-family: Montserrat, sans-serif;
+    font-family: Sans-serif	;
 font-size:20px ;
 padding-top: 5px;
 }
@@ -67,22 +67,25 @@ position: fixed;
 padding-left: 10px;
 padding-top: 3px;
 font-size: 14px;
-font-family: "Times New Roman";
+font-family: Sans-serif	;
 font-weight: 400;
 
+}
+.list1h2{
+    font-size: 15px;
 }
 .nav1{
     font-weight: bold;
 }
 .list1{
     font-size: 14px;
-    font-family: "Times New Roman";
+    font-family: Sans-serif	;
 
 }
 .list2{
     font-size: 14px;
 padding-top: 1px;
-font-family: "Times New Roman";
+font-family: Sans-serif	;
 }
 .bxs-circle{
     font-size: 10px;
@@ -114,8 +117,12 @@ form{
 }
 label.f1 {
     padding: 0px;
-    font-size: 16px;
+    font-size: 14px;
+    font-family: Sans-serif	;
+
 }
+
+
 input.f2{
     width: 141%;
     padding: 10px;
@@ -124,6 +131,7 @@ input.f2{
     background-color:rgb(245,245,245) ;
     border: none;
     border-radius: 5px;
+
 
 }
 .formh2{
@@ -150,6 +158,7 @@ input.f4{
 }
 form input[type=text]{
     border:1px solid rgb(225,224,227);
+    
 }
 #ff {
     padding-left: 60%;
@@ -167,8 +176,13 @@ flex-grow: 5;
         margin-top:-210px;
 
 }
+.namef .f3{
+    font-family: Sans-serif	;
+    font-size: 14px;
+
+}
 #ff1{
-    width: 113%;
+    width: 103%;
 }
 
 .last{
@@ -185,17 +199,16 @@ flex-grow: 5;
 .inp2{
     padding: 10px;
 text-align: center;  
-  width: 140px;
-  border-radius: 5px;
+  width: 137px;
+  border-top-left-radius: 5px;
   border-color: rgb(234,238,244);
 }
 #l1{
     margin-left: -5px;
-}
-.inp2:hover{
     background-color: rgb(234,238,244);
-   
+
 }
+
 #hr{
     width: 85%;
     margin-top: 30px;
@@ -205,11 +218,11 @@ text-align: center;
 .lasth2 {
     margin-top: 30px;
     margin-left: 30px;
-    font-size: 18px;
-    font-family:   "Times New Roman";
+    font-size: 17px;
+    font-family: Sans-serif	;
 }
 #l2{
-    font-size: 15px;
+    font-size: 14px;
     font-weight: 400;
 line-height: 1.5;
 margin-top: -10px;
@@ -223,7 +236,7 @@ padding-top: 8px;
  .search input{
     padding: 10px;
     padding-left: 35px;
-    width: 83%;
+    width: 79%;
     border:1px solid rgb(225,224,227);
 border-radius: 5px;
 background-color: rgb(234,238,244);
@@ -233,8 +246,9 @@ color: black;
 
 .search .bx-search-alt-2{
     font-size: 20px;
-    padding-bottom: -10px;
-  margin-left: -320px;
+    padding-bottom: -20px;
+  margin-left: -340px;
+  
  
   
 } 
@@ -245,8 +259,8 @@ color: black;
 .div1{
 
     margin-left: 30px;
-height: 132px;
-width: 100%;
+height: 105px;
+width: 97%;
 border:1px solid rgb(225,224,227);
 margin: 10px;
 border-radius: 5px;
@@ -254,28 +268,43 @@ border-radius: 5px;
 }
 .div1 .bx{
     padding-top: 30px;
-    padding-left: 40px;
+    padding-left: 30px;
     font-size: 25px;
     color: rgb(225,224,227);
 }
 .div1 .border{
     margin-top: -35px;
-    padding-left: 75px;
+    padding-left: 60px;
     color: rgb(225,224,227);
 
     
 }
 .div1h2{
-    font-size: 18px;
+    /* font-size: 18px; */
+    font-size: 15px;
+    font-family: Sans-serif	;
+
+}
+.div1p{
+    font-size: 12px;
+    font-family: Sans-serif	;
+
+    
+
 }
 .border .div1p{
     margin-top: -10px;
+
 }
 .div1 .border1{
     margin-top: -35px;
-    padding-left: 75px;   
+    padding-left: 60px;  
+    color: rgb(106,109,115);
+    
+ 
 }
 
 .border1 .div1p{
     margin-top: -10px;
+
 }
